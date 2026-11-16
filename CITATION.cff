@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Se usar este material, cite-o como abaixo."
+title: "Pacote de replicação: esforço, produtividade e percepção de qualidade no desenvolvimento de software com um agente de codificação por IA"
+type: dataset
+authors:
+  - family-names: "Silva"
+    given-names: "Wanderson José Santos da"
+version: "v1.0"
+date-released: "2026-11-16"
+license: CC-BY-4.0
+repository-code: "https://github.com/devwander/tcc-agente-codificacao-replicacao"
+keywords:
+  - Claude Code
+  - coding agents
+  - case study
+  - developer perception
+  - rework
+references:
+  - type: software
+    title: "AI Development Analytics"
+    version: "v1.0-tcc"
+    repository-code: "https://github.com/devwander/ai-development-analytics"
+    authors:
+      - family-names: "Silva"
+        given-names: "Wanderson José Santos da"

@@ -1,0 +1,1959 @@
+{
+ "prompts_categorias": {
+  "conteudo": 724,
+  "rotina": 325,
+  "sistema": 72
+ },
+ "mr_total": 282,
+ "mr_R1": 88,
+ "mr_R2": 194,
+ "mr_tipos": {
+  "feat": 184,
+  "fix": 51,
+  "docs": 23,
+  "chore": 9,
+  "test": 8,
+  "refactor": 6,
+  "teste": 1
+ },
+ "mr_ultima": "2026-10-29 11:53:17-03:00",
+ "mr_linhas_q": {
+  "R1": [
+   113.5,
+   457.0,
+   829.75
+  ],
+  "R2": [
+   165.5,
+   597.5,
+   1268.0
+  ]
+ },
+ "repo_commits_nao_merge": 443,
+ "repo_commits_merge": 325,
+ "repo_coautoria": 348,
+ "repo_coautoria_modelos": {
+  "Claude Opus 5.5": 135,
+  "Claude Sonnet 5": 41,
+  "Claude Opus 5": 99,
+  "Claude Sonnet 5.5": 73
+ },
+ "repo_escopo_modulo": 436,
+ "repo_refs_issue": 248,
+ "repo_harness": 209,
+ "repo_ci": 13,
+ "repo_ci_primeiro": "2026-10-28 15:32:28-03:00",
+ "snapshots": [
+  {
+   "ref": "b39778e99bb82d6eefb9b9fe371d6e47c81bf52f",
+   "data": "2026-08-31",
+   "backend_arquivos": 217,
+   "backend_linhas": 27869,
+   "frontend_arquivos": 230,
+   "frontend_linhas": 27829,
+   "testes_backend_unit": 22,
+   "testes_backend_e2e": 10,
+   "testes_frontend": 53,
+   "harness_regras": 24,
+   "harness_adr": 16,
+   "harness_hooks": 6
+  },
+  {
+   "ref": "abf87be369ee83bc6bfeede0a2cc31770ed39b0e",
+   "data": "2026-09-30",
+   "backend_arquivos": 510,
+   "backend_linhas": 80017,
+   "frontend_arquivos": 407,
+   "frontend_linhas": 52800,
+   "testes_backend_unit": 80,
+   "testes_backend_e2e": 32,
+   "testes_frontend": 114,
+   "harness_regras": 24,
+   "harness_adr": 27,
+   "harness_hooks": 6
+  },
+  {
+   "ref": "e2f6b5ee97b140858ad96f30a2893d50ef4f28d4",
+   "data": "2026-10-31",
+   "backend_arquivos": 807,
+   "backend_linhas": 147644,
+   "frontend_arquivos": 696,
+   "frontend_linhas": 90870,
+   "testes_backend_unit": 155,
+   "testes_backend_e2e": 58,
+   "testes_frontend": 195,
+   "harness_regras": 25,
+   "harness_adr": 44,
+   "harness_hooks": 6
+  }
+ ],
+ "repo_linhas_fonte": 255233,
+ "repo_linhas_coautoria_frac": 0.8303354190092974,
+ "R1_commits": 134,
+ "R1_linhas_coautoria_frac": 0.3372878350714873,
+ "R2_commits": 309,
+ "R2_linhas_coautoria_frac": 0.9886642442311873,
+ "atrib_origem": {
+  "arquivos": 204,
+  "sem atribuição": 66,
+  "issue": 44,
+  "issues citadas": 13
+ },
+ "atrib_origem_horas": {
+  "arquivos": 72.43050666666666,
+  "issue": 4.559523888888889,
+  "issues citadas": 5.243606944444443,
+  "sem atribuição": 7.448370833333333
+ },
+ "transcritos": 342,
+ "sessoes_validas": 327,
+ "R1_transcritos": 25,
+ "R1_validas": 20,
+ "R1_sem_resposta": 5,
+ "R1_flag_shell_edit": 3,
+ "R1_flag_resumed": 2,
+ "R1_flag_interrupted": 4,
+ "R1_flag_orig_missing": 20,
+ "R1_flag_archived": 17,
+ "R1_flag_worktree": 0,
+ "R1_flag_snapshot": 0,
+ "R1_nao_auditavel": 3,
+ "R1_com_commit": 9,
+ "R2_transcritos": 317,
+ "R2_validas": 307,
+ "R2_sem_resposta": 10,
+ "R2_flag_shell_edit": 57,
+ "R2_flag_resumed": 1,
+ "R2_flag_interrupted": 7,
+ "R2_flag_orig_missing": 221,
+ "R2_flag_archived": 197,
+ "R2_flag_worktree": 9,
+ "R2_flag_snapshot": 138,
+ "R2_nao_auditavel": 1,
+ "R2_com_commit": 180,
+ "nao_auditavel": 4,
+ "sem_resposta": 15,
+ "flag_shell_edit": 60,
+ "flag_resumed": 3,
+ "flag_interrupted": 11,
+ "flag_orig_missing": 241,
+ "flag_archived": 214,
+ "flag_worktree": 9,
+ "flag_snapshot": 138,
+ "com_commit": 189,
+ "versoes_cc": [
+  55,
+  "2.1.220",
+  "2.1.314"
+ ],
+ "periodo": [
+  "2026-07-29 17:03:42.601000-03:00",
+  "2026-10-30 15:13:14.039000-03:00"
+ ],
+ "cross_ambas": 324,
+ "cross_tokens_iguais": 315,
+ "cross_custo_razao_mediana": 0.985548761019425,
+ "sessoes_ccusage": 324,
+ "sobrepostas": {
+  "R1": 9,
+  "R2": 64
+ },
+ "sobrepostas_desde_23_10": 49,
+ "sessoes_desde_23_10": 61,
+ "total_n": 327,
+ "total_ativo_h": 89.68200833333334,
+ "total_relogio_h": 1399.876305,
+ "total_ativo_q": [
+  4.535912499999999,
+  8.518899999999999,
+  14.047695833333334
+ ],
+ "total_ativo_max_h": 11.467692222222222,
+ "total_quintil": 0.6449530583723238,
+ "total_prompts_dev": 1049,
+ "total_prompts_q": [
+  2.0,
+  2.0,
+  2.0
+ ],
+ "total_prompts_media": 3.2079510703363914,
+ "total_interv": 401,
+ "total_interv_q": [
+  0.0,
+  0.0,
+  1.0
+ ],
+ "total_interv_zero": 236,
+ "total_ferr": 23426,
+ "total_ferr_err": 714,
+ "total_modelos": {
+  "Opus 5.5": 131,
+  "Opus 5": 89,
+  "Sonnet 5.5": 59,
+  "Sonnet 5": 45,
+  "outros/misto": 3
+ },
+ "total_custo": 2944.868827000001,
+ "total_custo_q": [
+  1.4191174999999998,
+  3.2966276,
+  5.797113800000001
+ ],
+ "total_tokens": 5786587137.0,
+ "total_tokens_cache": 0.9813628597571052,
+ "total_tokens_saida": 0.0029426837610585176,
+ "total_classes": {
+  "unica": 228,
+  "outra": 62,
+  "integracao": 24,
+  "agrupada": 13
+ },
+ "total_impl_sem_issue": 28,
+ "total_dias": 49,
+ "total_mr_por_h": 3.144443408892586,
+ "R1_n": 20,
+ "R1_ativo_h": 29.23961388888889,
+ "R1_relogio_h": 668.7492691666666,
+ "R1_ativo_q": [
+  2.1393916666666666,
+  39.2924,
+  123.16718333333333
+ ],
+ "R1_ativo_max_h": 11.467692222222222,
+ "R1_quintil": 0.6456100889005127,
+ "R1_prompts_dev": 274,
+ "R1_prompts_q": [
+  1.0,
+  4.5,
+  18.25
+ ],
+ "R1_prompts_media": 13.7,
+ "R1_interv": 167,
+ "R1_interv_q": [
+  0.0,
+  3.5,
+  11.5
+ ],
+ "R1_interv_zero": 8,
+ "R1_ferr": 6139,
+ "R1_ferr_err": 199,
+ "R1_modelos": {
+  "Opus 5": 18,
+  "Sonnet 5": 1,
+  "outros/misto": 1
+ },
+ "R1_custo": 1617.350642200001,
+ "R1_custo_q": [
+  0.9236118500000001,
+  6.529658,
+  123.49349174999998
+ ],
+ "R1_tokens": 2614598227.0,
+ "R1_tokens_cache": 0.987745137792446,
+ "R1_tokens_saida": 0.0017274948607237772,
+ "R1_classes": {
+  "outra": 11,
+  "agrupada": 7,
+  "unica": 2
+ },
+ "R1_impl_sem_issue": 3,
+ "R1_dias": 12,
+ "R1_mr_por_h": 3.0096156650495365,
+ "R2_n": 307,
+ "R2_ativo_h": 60.442394444444446,
+ "R2_relogio_h": 731.1270358333334,
+ "R2_ativo_q": [
+  4.609566666666667,
+  8.443066666666667,
+  13.55725
+ ],
+ "R2_ativo_max_h": 2.3032075,
+ "R2_quintil": 0.513696948913065,
+ "R2_prompts_dev": 775,
+ "R2_prompts_q": [
+  2.0,
+  2.0,
+  2.0
+ ],
+ "R2_prompts_media": 2.52442996742671,
+ "R2_interv": 234,
+ "R2_interv_q": [
+  0.0,
+  0.0,
+  1.0
+ ],
+ "R2_interv_zero": 228,
+ "R2_ferr": 17287,
+ "R2_ferr_err": 515,
+ "R2_modelos": {
+  "Opus 5.5": 131,
+  "Opus 5": 71,
+  "Sonnet 5.5": 59,
+  "Sonnet 5": 44,
+  "outros/misto": 2
+ },
+ "R2_custo": 1327.5181847999997,
+ "R2_custo_q": [
+  1.4649976,
+  3.2899865999999998,
+  5.6270701
+ ],
+ "R2_tokens": 3171988910.0,
+ "R2_tokens_cache": 0.97610209330776,
+ "R2_tokens_saida": 0.003944336299712977,
+ "R2_classes": {
+  "unica": 226,
+  "outra": 51,
+  "integracao": 24,
+  "agrupada": 6
+ },
+ "R2_impl_sem_issue": 25,
+ "R2_dias": 37,
+ "R2_mr_por_h": 3.2096676808248366,
+ "razao_relogio_ativo": 15.609332696887083,
+ "classes": {
+  "unica_R1": {
+   "n": 2,
+   "horas": 2.6723275,
+   "ativo_q": [
+    59.7311125,
+    80.169825,
+    100.60853750000001
+   ],
+   "interv_q": [
+    6.5,
+    8.0,
+    9.5
+   ],
+   "interv": 16,
+   "custo": 133.94128,
+   "ferr_q": [
+    311.0,
+    363.0,
+    415.0
+   ]
+  },
+  "unica_R2": {
+   "n": 226,
+   "horas": 43.11661611111112,
+   "ativo_q": [
+    5.822354166666667,
+    9.107925000000002,
+    13.5501125
+   ],
+   "interv_q": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "interv": 41,
+   "custo": 1003.71946605,
+   "ferr_q": [
+    28.0,
+    46.5,
+    74.0
+   ]
+  },
+  "agrupada_R1": {
+   "n": 7,
+   "horas": 25.2816175,
+   "ativo_q": [
+    100.03207499999999,
+    141.42983333333333,
+    222.29092500000002
+   ],
+   "interv_q": [
+    10.5,
+    16.0,
+    26.5
+   ],
+   "interv": 142,
+   "custo": 1455.8506920000011,
+   "ferr_q": [
+    344.5,
+    562.0,
+    1007.0
+   ]
+  },
+  "agrupada_R2": {
+   "n": 6,
+   "horas": 3.891029444444444,
+   "ativo_q": [
+    5.713229166666666,
+    18.62549166666667,
+    44.51240416666666
+   ],
+   "interv_q": [
+    1.25,
+    3.5,
+    6.5
+   ],
+   "interv": 62,
+   "custo": 62.35362279999997,
+   "ferr_q": [
+    39.25,
+    46.5,
+    159.5
+   ]
+  },
+  "integracao_R1": {
+   "n": 0,
+   "horas": 0.0,
+   "ativo_q": [
+    null,
+    null,
+    null
+   ],
+   "interv_q": [
+    null,
+    null,
+    null
+   ],
+   "interv": 0,
+   "custo": 0.0,
+   "ferr_q": [
+    null,
+    null,
+    null
+   ]
+  },
+  "integracao_R2": {
+   "n": 24,
+   "horas": 7.074078611111111,
+   "ativo_q": [
+    3.637983333333333,
+    8.589125,
+    24.071929166666667
+   ],
+   "interv_q": [
+    0.0,
+    1.5,
+    4.0
+   ],
+   "interv": 71,
+   "custo": 137.26688315,
+   "ferr_q": [
+    17.0,
+    53.0,
+    112.5
+   ]
+  },
+  "outra_R1": {
+   "n": 11,
+   "horas": 1.2856688888888888,
+   "ativo_q": [
+    1.0789875,
+    2.1393916666666666,
+    5.471675
+   ],
+   "interv_q": [
+    0.0,
+    0.0,
+    0.5
+   ],
+   "interv": 9,
+   "custo": 27.558670199999998,
+   "ferr_q": [
+    4.5,
+    13.0,
+    31.0
+   ]
+  },
+  "outra_R2": {
+   "n": 51,
+   "horas": 6.360670277777779,
+   "ativo_q": [
+    2.1135,
+    4.094433333333333,
+    9.190333333333333
+   ],
+   "interv_q": [
+    0.0,
+    1.0,
+    1.0
+   ],
+   "interv": 60,
+   "custo": 124.1782128,
+   "ferr_q": [
+    15.5,
+    27.0,
+    52.0
+   ]
+  }
+ },
+ "protocolo_sessoes": 228,
+ "protocolo_variantes": 11,
+ "protocolo_variante_principal": 81,
+ "protocolo_modulo": 26,
+ "protocolo_sem_paragrafo_inicial": 118,
+ "protocolo_sha256": "f367cc1457b7adc6be46ddabbfdf595f79602f6623d335d299d72cb574980d39",
+ "tarefas_n": 212,
+ "tarefas_multi_sessao": 3,
+ "tarefas_integradas": 193,
+ "tarefas_ativo_q": [
+  5.871141666666667,
+  9.367466666666667,
+  13.785991666666666
+ ],
+ "tarefas_interv_q": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "tarefas_interv_dist": {
+  "0": 186,
+  "1": 23,
+  "2+": 3
+ },
+ "tarefas_ferr_q": [
+  28.75,
+  46.5,
+  74.0
+ ],
+ "tarefas_err_q": [
+  0.0,
+  0.9569597069597069,
+  3.5714285714285716
+ ],
+ "tarefas_custo_q": [
+  1.6592562250000005,
+  3.7554206499999996,
+  5.782511650000001
+ ],
+ "tarefas_ciclo_q": [
+  22.043940833333334,
+  67.88655722222222,
+  120.11140555555555
+ ],
+ "tarefas_ciclo_24h": 51,
+ "tarefas_tipos": {
+  "feat": 131,
+  "fix": 24,
+  "docs": 16,
+  "test": 10,
+  "refactor": 7,
+  "chore": 4,
+  "teste": 1
+ },
+ "tarefas_por_tipo": {
+  "feat": {
+   "n": 131,
+   "ativo": [
+    7.159625,
+    11.175783333333333,
+    15.742533333333334
+   ],
+   "custo": [
+    2.900911,
+    4.554301799999999,
+    6.266995249999999
+   ]
+  },
+  "fix": {
+   "n": 24,
+   "ativo": [
+    4.020041666666667,
+    5.51405,
+    8.464304166666667
+   ],
+   "custo": [
+    0.9707266499999999,
+    1.35291175,
+    2.4575745999999996
+   ]
+  },
+  "docs": {
+   "n": 16,
+   "ativo": [
+    2.600025,
+    4.688483333333333,
+    5.413375
+   ],
+   "custo": [
+    1.1861754749999998,
+    1.5627134999999999,
+    2.05990655
+   ]
+  },
+  "test": {
+   "n": 10,
+   "ativo": [
+    8.9748875,
+    15.322841666666667,
+    22.237425
+   ],
+   "custo": [
+    1.9097484,
+    5.064779250000001,
+    8.5726561
+   ]
+  }
+ },
+ "tarefas_feat_fix_ativo": {
+  "n1": 131,
+  "n2": 24,
+  "med1": 11.175783333333333,
+  "med2": 5.51405,
+  "p": 5.805471129062795e-06,
+  "delta": 0.5833333333333334,
+  "U": 2489.0
+ },
+ "tarefas_por_modelo": {
+  "Opus 5": {
+   "n": 42,
+   "ativo": [
+    6.106299999999999,
+    7.891466666666666,
+    11.691658333333335
+   ],
+   "custo": [
+    3.9292802499999997,
+    5.390429500000001,
+    6.947030875000001
+   ],
+   "periodo": [
+    "2026-09-01",
+    "2026-09-21"
+   ]
+  },
+  "Opus 5.5": {
+   "n": 94,
+   "ativo": [
+    6.3677375000000005,
+    11.693033333333332,
+    18.202270833333333
+   ],
+   "custo": [
+    2.4648947,
+    3.9801003999999995,
+    5.759567349999999
+   ],
+   "periodo": [
+    "2026-09-23",
+    "2026-10-23"
+   ]
+  },
+  "Sonnet 5": {
+   "n": 31,
+   "ativo": [
+    9.127416666666667,
+    12.201116666666666,
+    18.187475
+   ],
+   "custo": [
+    3.638453949999999,
+    4.4746538,
+    7.804776099999998
+   ],
+   "periodo": [
+    "2026-09-02",
+    "2026-09-10"
+   ]
+  },
+  "Sonnet 5.5": {
+   "n": 45,
+   "ativo": [
+    3.3089500000000003,
+    6.763516666666666,
+    8.431616666666667
+   ],
+   "custo": [
+    0.8421249,
+    1.0608073000000002,
+    1.3936111
+   ],
+   "periodo": [
+    "2026-10-23",
+    "2026-10-28"
+   ]
+  }
+ },
+ "tarefas_tendencia_ativo": {
+  "n": 212,
+  "rho": -0.18979134576753193,
+  "p": 0.005566029379177286,
+  "ci": [
+   -0.3220965709513509,
+   -0.05868421105694005
+  ]
+ },
+ "tarefas_tendencia_custo": {
+  "n": 212,
+  "rho": -0.5133634679398936,
+  "p": 1.1881593128679735e-15,
+  "ci": [
+   -0.6158908445948741,
+   -0.39285352552770336
+  ]
+ },
+ "tarefas_paralelas": 49,
+ "tarefas_paralela_vs_nao": {
+  "n1": 49,
+  "n2": 6,
+  "med1": 6.894566666666666,
+  "med2": 8.736208333333334,
+  "p": 0.17729505418739605,
+  "delta": -0.3469387755102041,
+  "U": 96.0
+ },
+ "rw_reorg_excluidos": {
+  "c93a8c7dd9b3cb44f6da7e4720af831c30d9b2c0": "consolidação das 84 migrações em baseline (03/11/2026)"
+ },
+ "rw_ultimo_integ_elegivel": "2026-11-01 12:00:00-03:00",
+ "rw_commits_elegiveis": 443,
+ "rw_commits_pendentes": 0,
+ "rw_linhas_inseridas": 255233,
+ "rw_linhas_alteradas": 4789,
+ "rw_linhas_alteradas_fix": 691,
+ "rw_frac": 0.01876324769916116,
+ "rw_frac_fix": 0.0027073301649865027,
+ "rw_mr_n": 262,
+ "rw_mr_pendentes": 0,
+ "rw_mr_linha": [
+  122,
+  262,
+  [
+   0.4061796617738192,
+   0.5261108450543069
+  ]
+ ],
+ "rw_mr_linha_reg": {
+  "R1": [
+   62,
+   81
+  ],
+  "R2": [
+   60,
+   181
+  ]
+ },
+ "rw_mr_linha_fix": [
+  53,
+  262,
+  [
+   0.1581112508478537,
+   0.25507314166257355
+  ]
+ ],
+ "rw_mr_linha_fix_reg": {
+  "R1": [
+   33,
+   81
+  ],
+  "R2": [
+   20,
+   181
+  ]
+ },
+ "rw_mr_frac_reg": {
+  "R1": 0.057576685633230706,
+  "R2": 0.006299367475180388
+ },
+ "rw_mr_fixfrac_reg": {
+  "R1": 0.008414062122213446,
+  "R2": 0.0008747683675476464
+ },
+ "posthoc_rw_modelo": {
+  "R1|Opus 5": {
+   "mrs": 25,
+   "ins": 13605,
+   "frac": 0.047923557515619254,
+   "frac_fix": 0.005806688717383315,
+   "mrs_com_rw": 22,
+   "mrs_com_rw_fix": 9
+  },
+  "R1|sem coautoria": {
+   "mrs": 56,
+   "ins": 48434,
+   "frac": 0.06028822727835818,
+   "frac_fix": 0.009146467357641326,
+   "mrs_com_rw": 40,
+   "mrs_com_rw_fix": 24
+  },
+  "R2|Opus 5": {
+   "mrs": 22,
+   "ins": 26366,
+   "frac": 0.01797769855116438,
+   "frac_fix": 0.0,
+   "mrs_com_rw": 12,
+   "mrs_com_rw_fix": 0
+  },
+  "R2|Opus 5.5": {
+   "mrs": 84,
+   "ins": 109922,
+   "frac": 0.005904186605047215,
+   "frac_fix": 0.0011462673532140974,
+   "mrs_com_rw": 28,
+   "mrs_com_rw_fix": 12
+  },
+  "R2|Sonnet 5": {
+   "mrs": 27,
+   "ins": 30699,
+   "frac": 0.0007817844229453728,
+   "frac_fix": 0.0,
+   "mrs_com_rw": 6,
+   "mrs_com_rw_fix": 0
+  },
+  "R2|Sonnet 5.5": {
+   "mrs": 41,
+   "ins": 24017,
+   "frac": 0.0026231419411250363,
+   "frac_fix": 0.0015405754257401007,
+   "mrs_com_rw": 12,
+   "mrs_com_rw_fix": 6
+  },
+  "R2|sem coautoria": {
+   "mrs": 7,
+   "ins": 2190,
+   "frac": 0.0031963470319634705,
+   "frac_fix": 0.0027397260273972603,
+   "mrs_com_rw": 2,
+   "mrs_com_rw_fix": 2
+  }
+ },
+ "rw_tarefas_n": 173,
+ "rw_tarefas": [
+  52,
+  173,
+  [
+   0.23719239105694995,
+   0.3726279227153752
+  ]
+ ],
+ "rw_tarefas_fix": [
+  15,
+  173,
+  [
+   0.05324721784157309,
+   0.1381195193967238
+  ]
+ ],
+ "rw_tarefas_frac": 0.006856574826489733,
+ "rw_tarefas_ativo": {
+  "n1": 52,
+  "n2": 121,
+  "med1": 11.503316666666667,
+  "med2": 8.558916666666667,
+  "p": 0.0027485842686216758,
+  "delta": 0.2876668785759695,
+  "U": 4051.0
+ },
+ "rw_tarefas_interv": {
+  "n1": 52,
+  "n2": 121,
+  "med1": 0.0,
+  "med2": 0.0,
+  "p": 0.20429950664843544,
+  "delta": -0.07056579783852511,
+  "U": 2924.0
+ },
+ "h4_n": {
+  "unica": 159,
+  "agrupada": 7
+ },
+ "h4_frac": {
+  "n1": 7,
+  "n2": 159,
+  "med1": 0.049171270718232046,
+  "med2": 0.0,
+  "p": 0.008219097313173919,
+  "delta": 0.5040431266846361,
+  "U": 837.0
+ },
+ "h4_frac_R1": {
+  "n1": 5,
+  "n2": 2,
+  "med1": 0.05155746509129968,
+  "med2": 0.0028697987464111506,
+  "p": null,
+  "delta": null
+ },
+ "h4_global": {
+  "agrupada": 0.06427017424801901,
+  "unica": 0.007125881436295794
+ },
+ "h4_regimes": {
+  "R1": {
+   "agrupada": 5,
+   "unica": 2
+  },
+  "R2": {
+   "agrupada": 2,
+   "unica": 157
+  }
+ },
+ "h4_ins_q": {
+  "agrupada": [
+   2714.5,
+   4563.0,
+   6645.5
+  ],
+  "unica": [
+   482.5,
+   884.0,
+   1875.5
+  ]
+ },
+ "h5_custo": {
+  "n1": 42,
+  "n2": 94,
+  "med1": 5.390429500000001,
+  "med2": 3.9801003999999995,
+  "p": 0.005902894976935953,
+  "delta": 0.29635258358662614,
+  "U": 2559.0
+ },
+ "h5_ativo": {
+  "n1": 42,
+  "n2": 94,
+  "med1": 7.891466666666666,
+  "med2": 11.693033333333332,
+  "p": 0.014787493061645597,
+  "delta": -0.2624113475177305,
+  "U": 1456.0
+ },
+ "h5_rw_tab": [
+  [
+   13,
+   21
+  ],
+  [
+   26,
+   57
+  ]
+ ],
+ "h5_rw_p": 0.5202383236896249,
+ "h5_rw_frac": {
+  "n1": 34,
+  "n2": 83,
+  "med1": 0.0,
+  "med2": 0.0,
+  "p": 0.2434441403695321,
+  "delta": 0.11587526576895818,
+  "U": 1574.5
+ },
+ "h5_rw_sonnet": [
+  5,
+  21
+ ],
+ "modulos": {
+  "1": {
+   "nome": "Harness e infraestrutura",
+   "sessoes": 64.692534322,
+   "ativo_h": 25.0113615963,
+   "prompts": 300.9223382424,
+   "interv": 145.2693589669,
+   "ferr": 6099.7783595319,
+   "custo": 852.1479845094,
+   "ativo_h_R1": 11.335225215,
+   "ativo_h_R2": 13.6761363813,
+   "commits": 140.1070942899,
+   "linhas": 26954.0,
+   "coautoria": 0.8624693923,
+   "mr": 70.5310846947,
+   "rw_ins": 26954,
+   "rw_churn": 79.0,
+   "rw_fix": 3.0,
+   "rw_frac": 0.0029309193,
+   "rw_fix_frac": 0.0001113007,
+   "interv_por_sessao": 2.2455351377,
+   "interv_por_h": 5.8081347714,
+   "primeiro_commit": "2026-07-31"
+  },
+  "2": {
+   "nome": "Interface",
+   "sessoes": 11.9934725122,
+   "ativo_h": 5.5674317785,
+   "prompts": 67.9940225407,
+   "interv": 42.9307838092,
+   "ferr": 1284.6647027408,
+   "custo": 249.2303440015,
+   "ativo_h_R1": 3.5032475421,
+   "ativo_h_R2": 2.0641842363,
+   "commits": 41.8626163356,
+   "linhas": 17668.0,
+   "coautoria": 0.3329748698,
+   "mr": 23.9594884865,
+   "rw_ins": 17668,
+   "rw_churn": 136.0,
+   "rw_fix": 48.0,
+   "rw_frac": 0.0076975323,
+   "rw_fix_frac": 0.0027167761,
+   "interv_por_sessao": 3.5795124194,
+   "interv_por_h": 7.7110570039,
+   "primeiro_commit": "2026-07-31"
+  },
+  "3": {
+   "nome": "Acesso e permissões",
+   "sessoes": 15.031411863,
+   "ativo_h": 3.1687278005,
+   "prompts": 39.3588137009,
+   "interv": 9.5114035088,
+   "ferr": 896.7947368421,
+   "custo": 129.9788784799,
+   "ativo_h_R1": 1.0191872055,
+   "ativo_h_R2": 2.149540595,
+   "commits": 21.5129807912,
+   "linhas": 18953.0,
+   "coautoria": 0.9368965335,
+   "mr": 8.3311746851,
+   "rw_ins": 18953,
+   "rw_churn": 67.0,
+   "rw_fix": 11.0,
+   "rw_frac": 0.0035350604,
+   "rw_fix_frac": 0.0005803831,
+   "interv_por_sessao": 0.6327684715,
+   "interv_por_h": 3.0016473826,
+   "primeiro_commit": "2026-08-04"
+  },
+  "4": {
+   "nome": "Unidades",
+   "sessoes": 18.6082015937,
+   "ativo_h": 4.6204444876,
+   "prompts": 37.3463546687,
+   "interv": 7.6918353576,
+   "ferr": 1532.1524275432,
+   "custo": 129.9324549559,
+   "ativo_h_R1": 0.0424727193,
+   "ativo_h_R2": 4.5779717683,
+   "commits": 16.0235430677,
+   "linhas": 13090.0,
+   "coautoria": 0.961802903,
+   "mr": 1.5733311163,
+   "rw_ins": 13090,
+   "rw_churn": 19.0,
+   "rw_fix": 0.0,
+   "rw_frac": 0.0014514897,
+   "rw_fix_frac": 0.0,
+   "interv_por_sessao": 0.4133572672,
+   "interv_por_h": 1.6647392644,
+   "primeiro_commit": "2026-08-04"
+  },
+  "5": {
+   "nome": "Pacientes",
+   "sessoes": 23.8677641485,
+   "ativo_h": 14.0817123367,
+   "prompts": 138.9877081538,
+   "interv": 69.2517284648,
+   "ferr": 3339.3970301247,
+   "custo": 640.128928297,
+   "ativo_h_R1": 9.6844130475,
+   "ativo_h_R2": 4.3972992892,
+   "commits": 56.6411460025,
+   "linhas": 36160.0,
+   "coautoria": 0.6342643805,
+   "mr": 45.4382010748,
+   "rw_ins": 36160,
+   "rw_churn": 2099.0,
+   "rw_fix": 273.0,
+   "rw_frac": 0.0580475664,
+   "rw_fix_frac": 0.0075497788,
+   "interv_por_sessao": 2.9014753135,
+   "interv_por_h": 4.9178485406,
+   "primeiro_commit": "2026-08-11"
+  },
+  "6": {
+   "nome": "Terapeutas e equipe",
+   "sessoes": 9.1784302654,
+   "ativo_h": 3.3173476117,
+   "prompts": 36.3009975532,
+   "interv": 11.0921325052,
+   "ferr": 894.8757669866,
+   "custo": 129.3585878247,
+   "ativo_h_R1": 1.2564072242,
+   "ativo_h_R2": 2.0609403874,
+   "commits": 25.9993430348,
+   "linhas": 15240.0,
+   "coautoria": 0.5070209974,
+   "mr": 23.0585226465,
+   "rw_ins": 15240,
+   "rw_churn": 646.0,
+   "rw_fix": 231.0,
+   "rw_frac": 0.0423884514,
+   "rw_fix_frac": 0.0151574803,
+   "interv_por_sessao": 1.2084999487,
+   "interv_por_h": 3.3436750692,
+   "primeiro_commit": "2026-08-18"
+  },
+  "7": {
+   "nome": "Agenda",
+   "sessoes": 18.0037674886,
+   "ativo_h": 4.8096119536,
+   "prompts": 51.8149570237,
+   "interv": 13.1237718803,
+   "ferr": 1170.1677677395,
+   "custo": 217.3831862512,
+   "ativo_h_R1": 2.1340231454,
+   "ativo_h_R2": 2.6755888082,
+   "commits": 34.1500407782,
+   "linhas": 18674.0,
+   "coautoria": 0.7634143729,
+   "mr": 23.8416300206,
+   "rw_ins": 18674,
+   "rw_churn": 1142.0,
+   "rw_fix": 27.0,
+   "rw_frac": 0.0611545464,
+   "rw_fix_frac": 0.0014458606,
+   "interv_por_sessao": 0.7289458658,
+   "interv_por_h": 2.7286550364,
+   "primeiro_commit": "2026-08-18"
+  },
+  "8": {
+   "nome": "Integrações",
+   "sessoes": 19.0388528139,
+   "ativo_h": 3.4297002156,
+   "prompts": 39.8777056277,
+   "interv": 1.6714285714,
+   "ferr": 1053.1121212121,
+   "custo": 79.6306280536,
+   "ativo_h_R1": 0.0,
+   "ativo_h_R2": 3.4297002156,
+   "commits": 20.7927414012,
+   "linhas": 22763.0,
+   "coautoria": 0.983745552,
+   "mr": 16.0772255282,
+   "rw_ins": 22763,
+   "rw_churn": 0.0,
+   "rw_fix": 0.0,
+   "rw_frac": 0.0,
+   "rw_fix_frac": 0.0,
+   "interv_por_sessao": 0.0877904035,
+   "interv_por_h": 0.4873395534,
+   "primeiro_commit": "2026-08-19"
+  },
+  "9": {
+   "nome": "Personas",
+   "sessoes": 5.5,
+   "ativo_h": 0.6377126389,
+   "prompts": 11.5,
+   "interv": 0.0,
+   "ferr": 166.0,
+   "custo": 8.395477,
+   "ativo_h_R1": 0.0,
+   "ativo_h_R2": 0.6377126389,
+   "commits": 3.5172660157,
+   "linhas": 3936.0,
+   "coautoria": 0.8976117886,
+   "mr": 1.8377970731,
+   "rw_ins": 3936,
+   "rw_churn": 1.0,
+   "rw_fix": 0.0,
+   "rw_frac": 0.000254065,
+   "rw_fix_frac": 0.0,
+   "interv_por_sessao": 0.0,
+   "interv_por_h": 0.0,
+   "primeiro_commit": "2026-08-19"
+  },
+  "10": {
+   "nome": "Convênios e operadoras",
+   "sessoes": 9.1602499696,
+   "ativo_h": 2.095017765,
+   "prompts": 15.9490698453,
+   "interv": 2.4099378882,
+   "ferr": 848.5887985629,
+   "custo": 54.7063928583,
+   "ativo_h_R1": 0.1287458454,
+   "ativo_h_R2": 1.9662719195,
+   "commits": 11.1572844355,
+   "linhas": 9052.0,
+   "coautoria": 1.0,
+   "mr": 10.027196103,
+   "rw_ins": 9052,
+   "rw_churn": 37.0,
+   "rw_fix": 0.0,
+   "rw_frac": 0.0040874945,
+   "rw_fix_frac": 0.0,
+   "interv_por_sessao": 0.2630864765,
+   "interv_por_h": 1.1503185932,
+   "primeiro_commit": "2026-08-25"
+  },
+  "11": {
+   "nome": "Notificações",
+   "sessoes": 3.1888888889,
+   "ativo_h": 0.5303008519,
+   "prompts": 5.6222222222,
+   "interv": 0.0,
+   "ferr": 195.5666666667,
+   "custo": 15.0330233578,
+   "ativo_h_R1": 0.0,
+   "ativo_h_R2": 0.5303008519,
+   "commits": 2.5605218855,
+   "linhas": 2604.0,
+   "coautoria": 1.0,
+   "mr": 1.7838019838,
+   "rw_ins": 2604,
+   "rw_churn": 5.0,
+   "rw_fix": 0.0,
+   "rw_frac": 0.0019201229,
+   "rw_fix_frac": 0.0,
+   "interv_por_sessao": 0.0,
+   "interv_por_h": 0.0,
+   "primeiro_commit": "2026-09-10"
+  },
+  "12": {
+   "nome": "Estratégico",
+   "sessoes": 37.5835275835,
+   "ativo_h": 8.0849777208,
+   "prompts": 97.7144577645,
+   "interv": 25.5476190476,
+   "ferr": 2033.9153901654,
+   "custo": 126.2093805963,
+   "ativo_h_R1": 0.0,
+   "ativo_h_R2": 8.0849777208,
+   "commits": 46.9290940067,
+   "linhas": 35087.0,
+   "coautoria": 0.9946703907,
+   "mr": 36.4867782506,
+   "rw_ins": 35087,
+   "rw_churn": 538.0,
+   "rw_fix": 78.0,
+   "rw_frac": 0.0153333143,
+   "rw_fix_frac": 0.0022230456,
+   "interv_por_sessao": 0.6797557518,
+   "interv_por_h": 3.1598873775,
+   "primeiro_commit": "2026-10-07"
+  },
+  "13": {
+   "nome": "Auditoria",
+   "sessoes": 25.1528985507,
+   "ativo_h": 6.8792907431,
+   "prompts": 63.611352657,
+   "interv": 12.5,
+   "ferr": 1680.9862318841,
+   "custo": 133.2286789645,
+   "ativo_h_R1": 0.0,
+   "ativo_h_R2": 6.8792907431,
+   "commits": 21.7463279554,
+   "linhas": 35052.0,
+   "coautoria": 1.0,
+   "mr": 19.0537683369,
+   "rw_ins": 35052,
+   "rw_churn": 20.0,
+   "rw_fix": 20.0,
+   "rw_frac": 0.0005705809,
+   "rw_fix_frac": 0.0005705809,
+   "interv_por_sessao": 0.4969606177,
+   "interv_por_h": 1.817047784,
+   "primeiro_commit": "2026-10-19"
+  }
+ },
+ "cmp_regimes": {
+  "mr_tipos": {
+   "R1": {
+    "feat": 62,
+    "fix": 17,
+    "docs": 6,
+    "chore": 3
+   },
+   "R2": {
+    "feat": 122,
+    "fix": 34,
+    "docs": 17,
+    "test": 8,
+    "chore": 6,
+    "refactor": 6,
+    "teste": 1
+   }
+  },
+  "commits_harness": {
+   "R1": 55,
+   "R2": 154
+  },
+  "commits": {
+   "R1": 134,
+   "R2": 309
+  },
+  "modulos_iniciados": {
+   "R1": 10,
+   "R2": 3
+  }
+ },
+ "modulos_totais": {
+  "ativo_h": 82.2336375,
+  "sessoes": 261.0,
+  "linhas": 255233.0,
+  "mr": 282.0
+ },
+ "instrumento": {
+  "1": {
+   "C1": 4,
+   "C2": 11,
+   "C3": 5,
+   "C4": 11,
+   "C5": 2,
+   "D": 5,
+   "F": 3,
+   "S": 5
+  },
+  "2": {
+   "C1": 1,
+   "C2": 4,
+   "C3": 12,
+   "C4": 5,
+   "C5": 1,
+   "D": 5,
+   "F": 3,
+   "S": 5
+  },
+  "3": {
+   "C1": 5,
+   "C2": 7,
+   "C3": 10,
+   "C4": 4,
+   "C5": 7,
+   "D": 5,
+   "F": 3,
+   "S": 4
+  },
+  "4": {
+   "C1": 10,
+   "C2": 10,
+   "C3": 11,
+   "C4": 8,
+   "C5": 5,
+   "D": 5,
+   "F": 4,
+   "S": 5
+  },
+  "5": {
+   "C1": 2,
+   "C2": 5,
+   "C3": 8,
+   "C4": 1,
+   "C5": 3,
+   "D": 5,
+   "F": 3,
+   "S": 4
+  },
+  "6": {
+   "C1": 3,
+   "C2": 6,
+   "C3": 7,
+   "C4": 2,
+   "C5": 4,
+   "D": 5,
+   "F": 3,
+   "S": 4
+  },
+  "7": {
+   "C1": 9,
+   "C2": 8,
+   "C3": 6,
+   "C4": 3,
+   "C5": 6,
+   "D": 5,
+   "F": 3,
+   "S": 4
+  },
+  "8": {
+   "C1": 8,
+   "C2": 3,
+   "C3": 2,
+   "C4": 7,
+   "C5": 12,
+   "D": 5,
+   "F": 3,
+   "S": 5
+  },
+  "9": {
+   "C1": 12,
+   "C2": 13,
+   "C3": 4,
+   "C4": 13,
+   "C5": 13,
+   "D": 5,
+   "F": 5,
+   "S": 3
+  },
+  "10": {
+   "C1": 11,
+   "C2": 9,
+   "C3": 9,
+   "C4": 10,
+   "C5": 8,
+   "D": 5,
+   "F": 4,
+   "S": 3
+  },
+  "11": {
+   "C1": 13,
+   "C2": 12,
+   "C3": 13,
+   "C4": 12,
+   "C5": 11,
+   "D": 5,
+   "F": 5,
+   "S": 3
+  },
+  "12": {
+   "C1": 7,
+   "C2": 2,
+   "C3": 3,
+   "C4": 6,
+   "C5": 9,
+   "D": 5,
+   "F": 4,
+   "S": 4
+  },
+  "13": {
+   "C1": 6,
+   "C2": 1,
+   "C3": 1,
+   "C4": 9,
+   "C5": 10,
+   "D": 5,
+   "F": 4,
+   "S": 4
+  }
+ },
+ "instrumento_DFS_q": {
+  "D": [
+   5.0,
+   5.0,
+   5.0
+  ],
+  "F": [
+   3.0,
+   3.0,
+   4.0
+  ],
+  "S": [
+   4.0,
+   4.0,
+   5.0
+  ]
+ },
+ "instrumento_DFS_dist": {
+  "D": {
+   "5": 13
+  },
+  "F": {
+   "3": 7,
+   "4": 4,
+   "5": 2
+  },
+  "S": {
+   "3": 3,
+   "4": 6,
+   "5": 4
+  }
+ },
+ "concordancia": {
+  "C1~prompts": {
+   "rotulo": "H1 (principal): esforço próprio x prompts do desenvolvedor",
+   "n": 12,
+   "rho": 0.6363636363636365,
+   "p": 0.02609689105270314,
+   "ci": [
+    0.0034697508896797454,
+    0.956204379562044
+   ]
+  },
+  "C1~interv": {
+   "rotulo": "H1 (alternativa): esforço próprio x intervenções",
+   "n": 12,
+   "rho": 0.7412587412587414,
+   "p": 0.005801150474478245,
+   "ci": [
+    0.2616292660121552,
+    0.9354838709677419
+   ]
+  },
+  "C1~ativo_h": {
+   "rotulo": "Esforço próprio x tempo ativo do agente",
+   "n": 12,
+   "rho": 0.5664335664335665,
+   "p": 0.054842119775407906,
+   "ci": [
+    -0.04063947554369159,
+    0.9071428571428571
+   ]
+  },
+  "C2~ativo_h": {
+   "rotulo": "Trabalho do agente x tempo ativo do agente",
+   "n": 12,
+   "rho": 0.3706293706293707,
+   "p": 0.23562100351264567,
+   "ci": [
+    -0.32616487455197135,
+    0.8857142857142857
+   ]
+  },
+  "C2~custo": {
+   "rotulo": "Trabalho do agente x custo equivalente",
+   "n": 12,
+   "rho": 0.0979020979020979,
+   "p": 0.7621216559962992,
+   "ci": [
+    -0.65,
+    0.7234100580270794
+   ]
+  },
+  "C2~linhas": {
+   "rotulo": "Trabalho do agente x linhas inseridas",
+   "n": 12,
+   "rho": 0.6363636363636365,
+   "p": 0.02609689105270314,
+   "ci": [
+    0.0700604425399093,
+    0.9357142857142858
+   ]
+  },
+  "C3~interv_por_sessao": {
+   "rotulo": "H3 (provisória): dificuldade x intervenções por sessão",
+   "n": 12,
+   "rho": 0.027972027972027972,
+   "p": 0.9312343512018807,
+   "ci": [
+    -0.7184620162260782,
+    0.6907300494124275
+   ]
+  },
+  "C3~ativo_h": {
+   "rotulo": "Dificuldade x tempo ativo do agente",
+   "n": 12,
+   "rho": 0.49650349650349657,
+   "p": 0.10060263183225476,
+   "ci": [
+    -0.09489051094890512,
+    0.849549335863378
+   ]
+  },
+  "C4~rw_frac": {
+   "rotulo": "Retrabalho percebido x fração de linhas alteradas em 14 dias",
+   "n": 12,
+   "rho": 0.6993006993006995,
+   "p": 0.01137419864269093,
+   "ci": [
+    0.13871314184036607,
+    0.885304659498208
+   ]
+  },
+  "C4~rw_fix_frac": {
+   "rotulo": "Retrabalho percebido x fração alterada por correções",
+   "n": 12,
+   "rho": 0.8150756607987959,
+   "p": 0.001237242012836549,
+   "ci": [
+    0.48009446045470056,
+    0.933093749847965
+   ]
+  },
+  "C4~rw_churn": {
+   "rotulo": "Retrabalho percebido x linhas alteradas em 14 dias",
+   "n": 12,
+   "rho": 0.7412587412587414,
+   "p": 0.005801150474478245,
+   "ci": [
+    0.2072694805194805,
+    0.9350238942420072
+   ]
+  },
+  "C1~C2": {
+   "rotulo": "Esforço próprio x trabalho do agente (ambos percebidos)",
+   "n": 12,
+   "rho": 0.44055944055944063,
+   "p": 0.1517350357167303,
+   "ci": [
+    -0.20441191696433192,
+    0.8928571428571428
+   ]
+  },
+  "C5~rw_frac": {
+   "rotulo": "H2: qualidade percebida x rw_frac (1 = menos retrabalho)",
+   "n": 12,
+   "rho": -0.5174825174825175,
+   "p": 0.08486877113393476,
+   "ci": [
+    -0.8785822318251144,
+    0.08577731092436996
+   ]
+  },
+  "C5~rw_fix_frac": {
+   "rotulo": "H2: qualidade percebida x rw_fix_frac (1 = menos retrabalho)",
+   "n": 12,
+   "rho": -0.5552480484044199,
+   "p": 0.060919625341362325,
+   "ci": [
+    -0.8723569980974955,
+    0.00721303541155061
+   ]
+  },
+  "C5~C4": {
+   "rotulo": "Qualidade x retrabalho, ambos percebidos (1 = menos retrabalho)",
+   "n": 12,
+   "rho": -0.39860139860139865,
+   "p": 0.19933549461780897,
+   "ci": [
+    -0.8880804311774461,
+    0.22633472367049032
+   ]
+  }
+ },
+ "posthoc_regime": {
+  "C5~frac_R1": {
+   "n": 12,
+   "rho": 0.9040577198379657,
+   "p": 5.439500068700973e-05,
+   "ci": [
+    0.6559305624313175,
+    0.9839131599805843
+   ]
+  },
+  "C5~C1": {
+   "n": 12,
+   "rho": 0.6853146853146854,
+   "p": 0.013905968814362752,
+   "ci": [
+    0.08563236047107016,
+    0.9361758514397414
+   ]
+  },
+  "C5~interv": {
+   "n": 12,
+   "rho": 0.7202797202797203,
+   "p": 0.008239768712338435,
+   "ci": [
+    0.18278785024723335,
+    0.9343184703268804
+   ]
+  },
+  "C5~entrada": {
+   "n": 12,
+   "rho": 0.8189920512039535,
+   "p": 0.001119482673763695,
+   "ci": [
+    0.46289145117151975,
+    0.9639994317342061
+   ]
+  },
+  "rw_fix~frac_R1": {
+   "n": 12,
+   "rho": 0.5760869565217392,
+   "p": 0.049948997378029374,
+   "ci": [
+    0.01510784577121639,
+    0.9045488387785515
+   ]
+  },
+  "C5~rw_fix_menor|frac_R1": {
+   "rho_parcial": -0.09855781615423885,
+   "n": 12
+  },
+  "C5~rw_fix_menor|entrada": {
+   "rho_parcial": -0.6981243539265762,
+   "n": 12
+  }
+ },
+ "postos": {
+  "1": {
+   "C1": 4,
+   "C2": 11,
+   "C3": 5,
+   "C4": 11,
+   "C5": 2,
+   "rank_prompts": 1.0,
+   "rank_ativo": 1.0,
+   "rank_rw": 8.0,
+   "rank_interv_sessao": 3.0,
+   "dif_C1": 3.0,
+   "dif_C2": 10.0,
+   "dif_C4": 3.0
+  },
+  "2": {
+   "C1": 1,
+   "C2": 4,
+   "C3": 12,
+   "C4": 5,
+   "C5": 1,
+   "rank_prompts": 4.0,
+   "rank_ativo": 5.0,
+   "rank_rw": 5.0,
+   "rank_interv_sessao": 1.0,
+   "dif_C1": -3.0,
+   "dif_C2": -1.0,
+   "dif_C4": 0.0
+  },
+  "3": {
+   "C1": 5,
+   "C2": 7,
+   "C3": 10,
+   "C4": 4,
+   "C5": 7,
+   "rank_prompts": 8.0,
+   "rank_ativo": 10.0,
+   "rank_rw": 7.0,
+   "rank_interv_sessao": 7.0,
+   "dif_C1": -3.0,
+   "dif_C2": -3.0,
+   "dif_C4": -3.0
+  },
+  "4": {
+   "C1": 10,
+   "C2": 10,
+   "C3": 11,
+   "C4": 8,
+   "C5": 5,
+   "rank_prompts": 9.0,
+   "rank_ativo": 7.0,
+   "rank_rw": 10.0,
+   "rank_interv_sessao": 9.0,
+   "dif_C1": 1.0,
+   "dif_C2": 3.0,
+   "dif_C4": -2.0
+  },
+  "5": {
+   "C1": 2,
+   "C2": 5,
+   "C3": 8,
+   "C4": 1,
+   "C5": 3,
+   "rank_prompts": 2.0,
+   "rank_ativo": 2.0,
+   "rank_rw": 2.0,
+   "rank_interv_sessao": 2.0,
+   "dif_C1": 0.0,
+   "dif_C2": 3.0,
+   "dif_C4": -1.0
+  },
+  "6": {
+   "C1": 3,
+   "C2": 6,
+   "C3": 7,
+   "C4": 2,
+   "C5": 4,
+   "rank_prompts": 10.0,
+   "rank_ativo": 9.0,
+   "rank_rw": 3.0,
+   "rank_interv_sessao": 4.0,
+   "dif_C1": -7.0,
+   "dif_C2": -3.0,
+   "dif_C4": -1.0
+  },
+  "7": {
+   "C1": 9,
+   "C2": 8,
+   "C3": 6,
+   "C4": 3,
+   "C5": 6,
+   "rank_prompts": 6.0,
+   "rank_ativo": 6.0,
+   "rank_rw": 1.0,
+   "rank_interv_sessao": 5.0,
+   "dif_C1": 3.0,
+   "dif_C2": 2.0,
+   "dif_C4": 2.0
+  },
+  "8": {
+   "C1": 8,
+   "C2": 3,
+   "C3": 2,
+   "C4": 7,
+   "C5": 12,
+   "rank_prompts": 7.0,
+   "rank_ativo": 8.0,
+   "rank_rw": 12.0,
+   "rank_interv_sessao": 11.0,
+   "dif_C1": 1.0,
+   "dif_C2": -5.0,
+   "dif_C4": -5.0
+  },
+  "10": {
+   "C1": 11,
+   "C2": 9,
+   "C3": 9,
+   "C4": 10,
+   "C5": 8,
+   "rank_prompts": 11.0,
+   "rank_ativo": 11.0,
+   "rank_rw": 6.0,
+   "rank_interv_sessao": 10.0,
+   "dif_C1": 0.0,
+   "dif_C2": -2.0,
+   "dif_C4": 4.0
+  },
+  "11": {
+   "C1": 13,
+   "C2": 12,
+   "C3": 13,
+   "C4": 12,
+   "C5": 11,
+   "rank_prompts": 12.0,
+   "rank_ativo": 12.0,
+   "rank_rw": 9.0,
+   "rank_interv_sessao": 12.0,
+   "dif_C1": 1.0,
+   "dif_C2": 0.0,
+   "dif_C4": 3.0
+  },
+  "12": {
+   "C1": 7,
+   "C2": 2,
+   "C3": 3,
+   "C4": 6,
+   "C5": 9,
+   "rank_prompts": 3.0,
+   "rank_ativo": 3.0,
+   "rank_rw": 4.0,
+   "rank_interv_sessao": 6.0,
+   "dif_C1": 4.0,
+   "dif_C2": -1.0,
+   "dif_C4": 2.0
+  },
+  "13": {
+   "C1": 6,
+   "C2": 1,
+   "C3": 1,
+   "C4": 9,
+   "C5": 10,
+   "rank_prompts": 5.0,
+   "rank_ativo": 4.0,
+   "rank_rw": 11.0,
+   "rank_interv_sessao": 8.0,
+   "dif_C1": 1.0,
+   "dif_C2": -3.0,
+   "dif_C4": -2.0
+  }
+ },
+ "p5_dias_uteis": 66,
+ "p5_feriados": [
+  "2026-09-07",
+  "2026-10-12"
+ ],
+ "p5_horas": [
+  264,
+  396
+ ],
+ "dias_com_sessao": 49,
+ "dias_uteis_com_sessao": 49,
+ "p1_mr_por_h": {
+  "R1": 3.0096156650495365,
+  "R2": 3.2096676808248366
+ },
+ "p1_mr_por_semana": {
+  "R1": 18.666666666666668,
+  "R2": 22.262295081967213
+ },
+ "p1_linhas_por_semana": {
+  "R1": 13159.787878787878,
+  "R2": 22169.803278688527
+ },
+ "p1_dias_sessao": {
+  "R1": 12,
+  "R2": 37
+ },
+ "semanas": [
+  {
+   "inicio": "2026-07-27",
+   "sessoes": 4.0,
+   "horas": 1.5905788888888888,
+   "mr": 0.0,
+   "custo": 38.14289569999999,
+   "interv": 10.0
+  },
+  {
+   "inicio": "2026-08-03",
+   "sessoes": 9.0,
+   "horas": 4.724581388888889,
+   "mr": 0.0,
+   "custo": 259.8402269999999,
+   "interv": 50.0
+  },
+  {
+   "inicio": "2026-08-10",
+   "sessoes": 2.0,
+   "horas": 12.713976111111112,
+   "mr": 4.0,
+   "custo": 611.892527000001,
+   "interv": 67.0
+  },
+  {
+   "inicio": "2026-08-17",
+   "sessoes": 1.0,
+   "horas": 2.961154444444445,
+   "mr": 37.0,
+   "custo": 247.07956850000014,
+   "interv": 16.0
+  },
+  {
+   "inicio": "2026-08-24",
+   "sessoes": 3.0,
+   "horas": 6.536661666666666,
+   "mr": 47.0,
+   "custo": 435.15067799999997,
+   "interv": 21.0
+  },
+  {
+   "inicio": "2026-08-31",
+   "sessoes": 37.0,
+   "horas": 8.9271,
+   "mr": 6.0,
+   "custo": 232.4521263,
+   "interv": 12.0
+  },
+  {
+   "inicio": "2026-09-07",
+   "sessoes": 22.0,
+   "horas": 4.514094166666666,
+   "mr": 13.0,
+   "custo": 97.02989060000002,
+   "interv": 14.0
+  },
+  {
+   "inicio": "2026-09-14",
+   "sessoes": 38.0,
+   "horas": 5.098155833333333,
+   "mr": 32.0,
+   "custo": 199.1836915,
+   "interv": 20.0
+  },
+  {
+   "inicio": "2026-09-21",
+   "sessoes": 38.0,
+   "horas": 5.172461111111111,
+   "mr": 6.0,
+   "custo": 169.0262866,
+   "interv": 22.0
+  },
+  {
+   "inicio": "2026-09-28",
+   "sessoes": 32.0,
+   "horas": 4.803412222222222,
+   "mr": 3.0,
+   "custo": 110.79969539999999,
+   "interv": 4.0
+  },
+  {
+   "inicio": "2026-10-05",
+   "sessoes": 31.0,
+   "horas": 5.705068611111112,
+   "mr": 38.0,
+   "custo": 107.7039996,
+   "interv": 11.0
+  },
+  {
+   "inicio": "2026-10-12",
+   "sessoes": 25.0,
+   "horas": 7.58878,
+   "mr": 9.0,
+   "custo": 150.52188299999997,
+   "interv": 20.0
+  },
+  {
+   "inicio": "2026-10-19",
+   "sessoes": 42.0,
+   "horas": 9.726205555555556,
+   "mr": 31.0,
+   "custo": 169.6077235,
+   "interv": 36.0
+  },
+  {
+   "inicio": "2026-10-26",
+   "sessoes": 43.0,
+   "horas": 9.619778333333333,
+   "mr": 56.0,
+   "custo": 116.43763429999998,
+   "interv": 98.0
+  }
+ ]
+}

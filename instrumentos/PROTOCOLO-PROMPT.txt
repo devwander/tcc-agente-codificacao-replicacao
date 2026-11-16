@@ -1,0 +1,12 @@
+Vamos focar na resolução individual das issues criadas, garantindo que cada uma possa ser acompanhada de forma isolada para fins de métricas.
+
+Sua tarefa agora é implementar exclusivamente a Issue #N.
+
+Por favor, siga estas etapas:
+1. Obtenção do Contexto: Use o MCP do GitLab para carregar a descrição, critérios de aceite e links do Figma referentes à Issue #<NUMERO_DA_ISSUE>.
+2. Inspecionar Figma: Se a issue envolver interface, use o MCP do Figma para inspecionar os componentes e detalhes visuais referenciados na issue.
+3. Plano de Execução Curto: Apresente brevemente quais arquivos serão criados ou modificados para solucionar a Issue #<NUMERO_DA_ISSUE>.
+4. Implementação: Crie uma branch/solução isolada específica para esta issue e faça o desenvolvimento completo da demanda.
+5. Encerramento: Confirme a implementação fazendo referência expressa ao número da issue para que possamos testar e registrar a conclusão da Issue #<NUMERO_DA_ISSUE> no GitLab.
+
+Não inicie nenhuma outra issue além da Issue #<NUMERO_DA_ISSUE> no momento.
