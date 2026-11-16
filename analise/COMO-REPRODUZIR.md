@@ -25,4 +25,4 @@ TCC_OBS="2026-11-15 12:00" TCC_INCLUIR_REORG=1 python analisar_v2.py dados/extra
 Ficam fixados no `analisar_v2.py`: fuso America/Recife, regimes (R2 a partir de 01/09/2026),
 corte em 31/10/2026, janela de retrabalho de 14 dias, mapa de pastas para módulos, regras de
 classificação de prompts e de sessões, extensões de código-fonte e semente do bootstrap
-(20261031, 4.000 reamostragens). `make_figs.py` gera a Figura 4.1 (linha do tempo).
+(20261031, 4.000 reamostragens). `make_figs.py` gera a Figura 4.1 (linha do tempo). Os blocos `cmp_regimes` (Tabela 6.2) e `exposicao` (Seção 5.5) ficam no fim do `analisar_v2.py`, para não alterar a sequência aleatória dos intervalos calculados antes.

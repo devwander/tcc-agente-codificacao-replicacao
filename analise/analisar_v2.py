@@ -1001,6 +1001,40 @@ fig.tight_layout()
 fig.savefig(FIG / "fig53_percepcao_medicao.png", dpi=300)
 plt.close(fig)
 
+# ---------------------------------------------------------------- exposição (v11, exploratória)
+# O retrabalho baixo dos módulos recentes reflete menos tempo de uso? Idade do módulo no corte
+# (dias do primeiro commit até 31/10) contra retrabalho e qualidade percebida, e commits de correção
+# que cada módulo recebeu depois do corte (01/11 até a leitura do Git), por 10 mil linhas inseridas.
+# Fica no fim do script para não alterar a sequência aleatória dos intervalos anteriores.
+J["idade_dias"] = (END.tz_localize(None) - pd.to_datetime(J.primeiro_commit)).dt.days
+alcancaveis = set(linhas)
+fix_pos = defaultdict(float)
+n_fix_pos = 0
+for h_, c_ in C.items():
+    if h_ not in alcancaveis or len(c_["parents"]) != 1:
+        continue
+    t_ = ts(c_["authored_at"])
+    if not (END <= t_ < OBS):
+        continue
+    if not (re.match(r"^(fix|revert)(\(|!|:)", c_["body"]) or c_["body"].startswith("Revert")):
+        continue
+    n_fix_pos += 1
+    for m_, w_ in modules_of_files([f[0] for f in c_["files"] if is_source(f[0])]).items():
+        fix_pos[m_] += w_
+J["fix_pos_corte"] = pd.Series(fix_pos).reindex(J.index).fillna(0.0)
+J["fix_pos_por_10k"] = J.fix_pos_corte / (J.linhas / 1e4)
+put("exposicao", {
+    "commits_fix_pos_corte": n_fix_pos,
+    "por_modulo": {str(k): {"nome": MODULES.get(k, str(k)), "idade_dias": int(J.loc[k, "idade_dias"]),
+                            "fix_pos_corte": float(J.loc[k, "fix_pos_corte"]),
+                            "fix_pos_por_10k": float(J.loc[k, "fix_pos_por_10k"])} for k in J.index},
+    "idade~rw_frac": spearman_ci(J.idade_dias, J.rw_frac),
+    "idade~rw_fix_frac": spearman_ci(J.idade_dias, J.rw_fix_frac),
+    "idade~C5": spearman_ci(J.idade_dias, -J.C5),
+    "idade~fix_pos_por_10k": spearman_ci(J.idade_dias, J.fix_pos_por_10k),
+    "C5~fix_pos_por_10k": spearman_ci(-J.C5, J.fix_pos_por_10k),
+})
+
 json.dump(R, open(OUT, "w"), ensure_ascii=False, indent=1, default=str)
 mod.to_csv(OUT.with_name("modulos.csv"))
 T.to_pickle(D / "tarefas_v2.pkl")

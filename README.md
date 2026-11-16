@@ -6,7 +6,7 @@ Longitudinal"** (Bacharelado em Sistemas de Informação, Universidade de Pernam
 Caruaru, 2026). O estudo analisa o desenvolvimento de uma plataforma clínica real com o
 Claude Code, de 29 de julho a 31 de outubro de 2026: 327 sessões do agente e 282 merge requests.
 
-DOI deste pacote (v1.0): [10.5281/zenodo.24278835](https://doi.org/10.5281/zenodo.24278835).
+Versão atual: **v1.1**, correspondente à monografia v11 (inclui a análise exploratória de exposição da Seção 5.5 e a comparação entre regimes da Tabela 6.2). A v1.0 tem o DOI [10.5281/zenodo.24278835](https://doi.org/10.5281/zenodo.24278835).
 
 A ferramenta de coleta é publicada à parte, em
 <https://github.com/devwander/ai-development-analytics> (tag `v1.0-tcc`, DOI

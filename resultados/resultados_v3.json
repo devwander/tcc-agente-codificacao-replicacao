@@ -34,9 +34,9 @@
  "repo_coautoria": 348,
  "repo_coautoria_modelos": {
   "Claude Opus 5.5": 135,
-  "Claude Sonnet 5": 41,
+  "Claude Sonnet 5.5": 73,
   "Claude Opus 5": 99,
-  "Claude Sonnet 5.5": 73
+  "Claude Sonnet 5": 41
  },
  "repo_escopo_modulo": 436,
  "repo_refs_issue": 248,
@@ -1955,5 +1955,127 @@
    "custo": 116.43763429999998,
    "interv": 98.0
   }
- ]
+ ],
+ "exposicao": {
+  "commits_fix_pos_corte": 27,
+  "por_modulo": {
+   "1": {
+    "nome": "Harness e infraestrutura",
+    "idade_dias": 93,
+    "fix_pos_corte": 3.8277777777777775,
+    "fix_pos_por_10k": 1.4201149283140824
+   },
+   "2": {
+    "nome": "Interface",
+    "idade_dias": 93,
+    "fix_pos_corte": 1.0,
+    "fix_pos_por_10k": 0.5659950192438307
+   },
+   "3": {
+    "nome": "Acesso e permissões",
+    "idade_dias": 89,
+    "fix_pos_corte": 1.0,
+    "fix_pos_por_10k": 0.5276209571044161
+   },
+   "4": {
+    "nome": "Unidades",
+    "idade_dias": 89,
+    "fix_pos_corte": 1.0,
+    "fix_pos_por_10k": 0.7639419404125287
+   },
+   "5": {
+    "nome": "Pacientes",
+    "idade_dias": 82,
+    "fix_pos_corte": 1.4222222222222223,
+    "fix_pos_por_10k": 0.39331366764995085
+   },
+   "6": {
+    "nome": "Terapeutas e equipe",
+    "idade_dias": 75,
+    "fix_pos_corte": 0.1,
+    "fix_pos_por_10k": 0.06561679790026247
+   },
+   "7": {
+    "nome": "Agenda",
+    "idade_dias": 75,
+    "fix_pos_corte": 4.7,
+    "fix_pos_por_10k": 2.516868373139124
+   },
+   "8": {
+    "nome": "Integrações",
+    "idade_dias": 74,
+    "fix_pos_corte": 0.2,
+    "fix_pos_por_10k": 0.08786188112287485
+   },
+   "10": {
+    "nome": "Convênios e operadoras",
+    "idade_dias": 68,
+    "fix_pos_corte": 3.683333333333333,
+    "fix_pos_por_10k": 4.06908233907792
+   },
+   "11": {
+    "nome": "Notificações",
+    "idade_dias": 52,
+    "fix_pos_corte": 1.3,
+    "fix_pos_por_10k": 4.99231950844854
+   },
+   "12": {
+    "nome": "Estratégico",
+    "idade_dias": 25,
+    "fix_pos_corte": 2.0,
+    "fix_pos_por_10k": 0.5700116852395474
+   },
+   "13": {
+    "nome": "Auditoria",
+    "idade_dias": 13,
+    "fix_pos_corte": 1.1666666666666667,
+    "fix_pos_por_10k": 0.3328388299288676
+   }
+  },
+  "idade~rw_frac": {
+   "n": 12,
+   "rho": 0.16871939252270285,
+   "p": 0.600153023765019,
+   "ci": [
+    -0.46549610896397065,
+    0.6522715884078725
+   ]
+  },
+  "idade~rw_fix_frac": {
+   "n": 12,
+   "rho": 0.19858444356493482,
+   "p": 0.536097624287161,
+   "ci": [
+    -0.3979112501308918,
+    0.6828246763582286
+   ]
+  },
+  "idade~C5": {
+   "n": 12,
+   "rho": 0.8189920512039536,
+   "p": 0.0011194826737636924,
+   "ci": [
+    0.4501804626211517,
+    0.9636543421092868
+   ]
+  },
+  "idade~fix_pos_por_10k": {
+   "n": 12,
+   "rho": -0.0035149873442229763,
+   "p": 0.9913499783295984,
+   "ci": [
+    -0.6090519232151286,
+    0.6208594198378348
+   ]
+  },
+  "C5~fix_pos_por_10k": {
+   "n": 12,
+   "rho": -0.034965034965034975,
+   "p": 0.9140933424107599,
+   "ci": [
+    -0.7184620162260782,
+    0.6377317774936063
+   ]
+  }
+ }
 }
