@@ -18,3 +18,12 @@ resumos SHA-256 que permitem a uma auditoria autorizada confirmar que são os me
 Referências Git do caso: estrutura do recorte = topo de `origin/dev` em 02/11/2026,
 commit `e2f6b5ee97b140858ad96f30a2893d50ef4f28d4`; reorganização excluída do retrabalho =
 commit `c93a8c7d` (consolidação das migrações, 03/11/2026).
+
+## Versão v1.2 (anonimizada)
+
+Na v1.2, o nome do produto estudado foi substituído por `[produto]` no instrumento respondido e
+nos comentários dos scripts, a pedido da orientação. Nenhuma outra palavra foi alterada, e os
+scripts continuam funcionando, porque o caminho do caso vem da variável `TCC_CASO_PATH`.
+O SHA-256 acima, do instrumento, refere-se ao arquivo original, congelado em 02/11/2026, guardado
+com o autor. O SHA-256 da versão publicada na v1.2 é
+`32969b6cf61c8a409f2e20e609396cd2db8dcc67e1f66211092831fd5bbbf5a4`.

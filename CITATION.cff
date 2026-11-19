@@ -5,8 +5,8 @@ type: dataset
 authors:
   - family-names: "Silva"
     given-names: "Wanderson José Santos da"
-version: "v1.1"
-date-released: "2026-11-16"
+version: "v1.2"
+date-released: "2026-11-19"
 license: CC-BY-4.0
 repository-code: "https://github.com/devwander/tcc-agente-codificacao-replicacao"
 keywords:
