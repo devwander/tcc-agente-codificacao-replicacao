@@ -22,8 +22,9 @@ commit `c93a8c7d` (consolidação das migrações, 03/11/2026).
 ## Versão v1.2 (anonimizada)
 
 Na v1.2, o nome do produto estudado foi substituído por `[produto]` no instrumento respondido e
-nos comentários dos scripts, a pedido da orientação. Nenhuma outra palavra foi alterada, e os
-scripts continuam funcionando, porque o caminho do caso vem da variável `TCC_CASO_PATH`.
-O SHA-256 acima, do instrumento, refere-se ao arquivo original, congelado em 02/11/2026, guardado
-com o autor. O SHA-256 da versão publicada na v1.2 é
-`32969b6cf61c8a409f2e20e609396cd2db8dcc67e1f66211092831fd5bbbf5a4`.
+nos comentários dos scripts, e a cidade da empresa, citada numa resposta do instrumento, por
+`[local omitido]`, a pedido da orientação. Nenhuma outra palavra foi alterada, e os scripts
+continuam funcionando, porque o caminho do caso vem da variável `TCC_CASO_PATH`. O SHA-256 acima,
+do instrumento, refere-se ao arquivo original, congelado em 02/11/2026, guardado com o autor. O
+SHA-256 da versão publicada na v1.2 é
+`aa64b58da194e2313e322094a0a594d29d4bab2885883ebe7eb1890c24ec59d3`.

@@ -6,11 +6,11 @@ Longitudinal"** (Bacharelado em Sistemas de Informação, Universidade de Pernam
 Caruaru, 2026). O estudo analisa o desenvolvimento de uma plataforma clínica real com o
 Claude Code, de 29 de julho a 31 de outubro de 2026: 327 sessões do agente e 282 merge requests.
 
-Versão atual: **v1.2** (DOI `[[a gerar no Zenodo]]`), igual à v1.1 exceto pela substituição do nome do produto estudado por `[produto]` (ver `integridade/`). Todas as versões: [10.5281/zenodo.24278834](https://doi.org/10.5281/zenodo.24278834). A v1.1 tem o DOI [10.5281/zenodo.24279317](https://doi.org/10.5281/zenodo.24279317), e a v1.0, [10.5281/zenodo.24278835](https://doi.org/10.5281/zenodo.24278835).
+Versão atual: **v1.2**. DOI de todas as versões (aponta sempre para a mais recente): [10.5281/zenodo.24278834](https://doi.org/10.5281/zenodo.24278834). Os dados e os resultados são os mesmos das versões anteriores; na v1.2, o produto estudado e a empresa titular foram anonimizados (ver `integridade/`), e as versões anteriores, que traziam o nome do produto, foram retiradas.
 
 A ferramenta de coleta é publicada à parte, em
-<https://github.com/devwander/ai-development-analytics> (tag `v1.0-tcc`, DOI
-[10.5281/zenodo.24278833](https://doi.org/10.5281/zenodo.24278833)).
+<https://github.com/devwander/ai-development-analytics> (tag `v1.0.1-tcc`, DOI de todas as versões
+[10.5281/zenodo.24278832](https://doi.org/10.5281/zenodo.24278832)).
 
 ## Conteúdo
 
